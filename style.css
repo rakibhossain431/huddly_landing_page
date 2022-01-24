@@ -70,6 +70,9 @@ body{
     color:white;
 
 }
+.btn:hover{
+    background-color: #bb90ab;
+}
 .hero-image{
     max-width: 48%;
     margin: 2%;
@@ -132,7 +135,6 @@ body{
 .footer{
     background-color: black;
    
-    /* height: 400px; */
 }
 .footer-item{
 
@@ -141,6 +143,7 @@ body{
     margin-top: 150px;
     margin-left: 70px;
     color:white;
+    filter: brightness(0) invert(1);
 }
 
 .font{
@@ -173,6 +176,9 @@ body{
     width: 15%;
     
 }
+.footer-navigation li a:hover{
+    border-bottom: 1px solid white;
+}
 .socail-media{
     width: 20%;
 
@@ -201,4 +207,7 @@ body{
 
     padding: 10px;
 }
-
+.social-icon i:hover{
+    background-color: rgb(196, 181, 209);
+    border-radius: 15px;
+}
