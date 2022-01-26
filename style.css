@@ -200,14 +200,12 @@ body{
     color: white;
     font-size: 18px;
 }
-.social-icon {
-    
-}
+
 .social-icon i{
 
     padding: 10px;
+    font-size: 30px;
 }
 .social-icon i:hover{
-    background-color: rgb(196, 181, 209);
-    border-radius: 15px;
+    color: #FE52C0;
 }
